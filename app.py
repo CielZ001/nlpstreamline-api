@@ -205,4 +205,4 @@ def n_gram_generation():
 
 # Run the application
 if __name__ == '__app__':
-    app.run(threaded=True, port=5000)
+    app.run(debug=True, threaded=True, port=5000)
