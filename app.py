@@ -35,7 +35,7 @@ def index():
 
     
     """
-    return 'Hello World!'
+    return intro
 
 
 @app.route('/basic_text_processing')
