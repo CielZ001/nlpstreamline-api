@@ -205,5 +205,4 @@ def n_gram_generation():
 
 # Run the application
 if __name__ == '__app__':
-    port = int(os.environ.get('PORT', 5000))  # Default port is 5000 for local development
-    app.run(host='0.0.0.0', port=port)
+    app.run(threaded=True, port=5000)
