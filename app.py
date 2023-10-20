@@ -1,6 +1,7 @@
 from flask import Flask, request
 import re
 import nltk
+nltk.data.path.append('./nltk_data/')
 from nltk.stem import SnowballStemmer
 from nltk.corpus import stopwords
 import string
