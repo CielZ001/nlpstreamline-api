@@ -4,11 +4,11 @@ This tool could be used for streamlining your NLP process.
 
 # Basice Text Processing
 This is a function that could preprocess your str. It could:
-    1. Lowercase all words
-    2. Remove URLs
-    3. Tokenize the string into individual words
-    4. Remove punctuations
-    5. Remove stopwords    
+1. Lowercase all words
+2. Remove URLs
+3. Tokenize the string into individual words
+4. Remove punctuations
+5. Remove stopwords    
 
 This function will return a string after done all of these works.
 
