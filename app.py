@@ -38,7 +38,7 @@ def index():
     return intro
 
 
-@app.route('/basic_text_processing')
+@app.route('/basic_text_processing/')
 def basic_text_processing():
     """
 
@@ -82,7 +82,7 @@ def basic_text_processing():
     return final_str
 
 
-@app.route('/nlp_text_processing')
+@app.route('/nlp_text_processing/')
 def nlp_text_processing():
     """
 
@@ -135,7 +135,7 @@ def nlp_text_processing():
     return lemma_words
 
 
-@app.route('/n_gram_generation')
+@app.route('/n_gram_generation/')
 def n_gram_generation():
     """
 
