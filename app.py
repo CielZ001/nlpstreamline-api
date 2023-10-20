@@ -8,6 +8,7 @@ import string
 from typing import List
 from collections import Counter
 from nltk.util import ngrams
+import markdown
 
 app = Flask(__name__)
 
@@ -36,7 +37,7 @@ def index():
 
     
     """
-    return intro
+    return markdown.markdown(intro)
 
 
 @app.route('/basic_text_processing')
