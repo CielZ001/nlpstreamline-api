@@ -148,6 +148,7 @@ def n_gram_generation():
 
     raw_str = request.args.get('raw_str')
     n = request.args.get('n')
+    n = int(n)
 
     # Lowercase all words
     content = raw_str.lower()
