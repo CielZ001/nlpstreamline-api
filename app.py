@@ -1,7 +1,6 @@
 from flask import Flask, request
 import re
 import nltk
-nltk.download('punkt')
 from nltk.stem import SnowballStemmer
 from nltk.corpus import stopwords
 import string
