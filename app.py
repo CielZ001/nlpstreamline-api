@@ -19,6 +19,7 @@ def index():
     # Introduction
     Hello! This is a brief introduction for this api tool.
     This tool could be used for streamlining your NLP process.
+    
 
     # Basice Text Processing
     This is a function that could preprocess your str. It could:
@@ -37,6 +38,7 @@ def index():
     print(response.text)
     ```
     The 'raw_str' is the str you want to process. It will return a string.
+    
 
     # Basic NLP Processing
 
@@ -49,13 +51,13 @@ def index():
     ```
     It will return a list which contains all words after stemmed and lemmatized.
     The stemming method is Snowball Stemmer, and the Lemmatizer is called WordNet.
+    
 
     # N-gram Generation and Counter 
     This function could generate n grams.    
-    To use it:
+    To use it (Return 2 grams and their frequency):
     ```
     import requests
-    # Return 2 grams and their frequency
     response = requests.get('https://nlpstreamline-api-5b8e6f695807.herokuapp.com/n_gram_generation', params={'raw_str': "Good morning! I'm a student from the University of Toronto. I'm studying computer science.", 'n': 2})
     print(response.text)
     ```
